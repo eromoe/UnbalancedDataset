@@ -3,7 +3,7 @@
 # @Author: mithril
 # @Date:   2016-01-20 17:12:13
 # @Last Modified by:   mithril
-# @Last Modified time: 2016-01-21 10:42:47
+# @Last Modified time: 2016-01-21 13:59:57
 
 __auther__ = "eromoe@mithril"
 
@@ -31,8 +31,8 @@ def concatenate(l, axis=0):
                 x = sp.lil_matrix(x)
 
         if axis:
-            return sp.hstack(l).todense()
+            return sp.hstack(l)
         else:
-            return sp.vstack(l).todense()
+            return sp.vstack(l)
 
 

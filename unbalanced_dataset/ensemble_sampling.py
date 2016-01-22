@@ -5,7 +5,7 @@ import numpy as np
 import scipy.sparse as sp
 from .unbalanced_dataset import UnbalancedDataset
 from .under_sampling import UnderSampler
-from utils import concatenate
+from .utils import concatenate
 
 
 class EasyEnsemble(UnderSampler):

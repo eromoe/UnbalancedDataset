@@ -117,10 +117,10 @@ def test_CNN(x, y):
 if __name__ == '__main__':
 
     test_smote(X, Y)
-    test_rest(X, Y)
-    test_CNN(X, Y)
+    # test_rest(X, Y)
+    # test_CNN(X, Y)
 
     print('#############   Test sparse matrix    ###########\n')
     test_smote(SX, Y)
-    test_rest(SX, Y)
-    test_CNN(SX, Y)
+    # test_rest(SX, Y)
+    # test_CNN(SX, Y)
