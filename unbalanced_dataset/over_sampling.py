@@ -274,7 +274,7 @@ class SMOTE(UnbalancedDataset):
 
             return ret_x, ret_y
 
-        if (self.kind == 'borderline1') or (self.kind == 'borderline2'):
+        if self.kind in ('borderline1', 'borderline2'):
 
             if self.verbose:
                 print("Finding the %i nearest neighbours..." % self.m, end="")
